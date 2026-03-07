@@ -7,19 +7,3 @@
 ```bash
 $ npm install --global tui-game
 ```
-
-## CLI
-
-```
-$ tui-game --help
-
-  Usage
-    $ tui-game
-
-  Options
-    --name  Your name
-
-  Examples
-    $ tui-game --name=Jane
-    Hello, Jane
-```
