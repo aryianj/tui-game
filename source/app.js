@@ -185,10 +185,7 @@ export default function App()  {
         <Text color={scene === 'header' ? 'blue' : 'gray'} wrap="wrap">
           {current.text}
         </Text>
-      </Box>
-
-      <Text color="gray">--- Choose your path ---</Text>
-      
+      </Box>      
       <SelectInput 
         items={current.options} 
         onSelect={handleSelect} 
